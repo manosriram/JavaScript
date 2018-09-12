@@ -1,0 +1,26 @@
+
+------------------------------------------------------------------------------------------------------------------------
+
+1. Declaring an Object (Example) :
+
+let myYoutubeVideo {
+    title:'Loops in JS',
+    videoLength: 15,
+    videoCreator: "Mano Sriram",
+    videoDescription: 'This is a Video Description and a Long one...'
+}
+
+// Don't Miss the Commas.. and dont replace ' : ' with ' = "
+
+------------------------------------------------------------------------------------------------------------------------
+
+2. Accessing an Object (Example) :
+
+console.log(myYoutubeVideo);
+
+
+------------------------------------------------------------------------------------------------------------------------
+
+3. Accessing an Value of the Object (Example) :
+
+console.log("This is a New Video on " + (myYoutubeVideo.title) + "by" + (myYoutubeVideo.videoCreator));
